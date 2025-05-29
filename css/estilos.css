@@ -1,3 +1,4 @@
+/*FUENTES*/
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -8,6 +9,28 @@
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings:"wdth" 100;
+}
+/*BODY, CONTAINERS, SEMANTIC */
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  gap: 0.5rem;
+}
+
+/* IMAGENES, CARTELES, CARTAS, ETC */
+header img {
+  width: 8em;
 }

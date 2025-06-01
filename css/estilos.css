@@ -87,7 +87,7 @@ header img {
   width: 100%;
 }
 
-/*DESKTOPS MEDIA QUERIES*/
+/*DESKTOP MEDIA QUERIES*/
 @media (min-width : 992px){
   h1{
     font-size: 8rem;
@@ -114,6 +114,7 @@ header img {
     object-fit: cover;
     object-position: center;
   }
+ 
   main {
     display: flex;
     justify-content: center;
@@ -135,11 +136,20 @@ header img {
     display: flex;
     flex-flow: wrap;
   }
-  .articlepj {
-    width: 50%;
+  .container-news{
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+  .container-news2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+  }
+  .container-news3{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
   }
   article {
     width: 50%;

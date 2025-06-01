@@ -84,7 +84,9 @@ header img {
   border-radius: 15px;
 }
 .videogaleria {
-  width: 100%;
+  width: 20rem;
+  height: 15rem;
+  margin: 2rem;
 }
 
 /*DESKTOP MEDIA QUERIES*/
@@ -156,5 +158,18 @@ header img {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+  }
+  .container-galeria {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
+  .videogaleria{
+    width: 60rem;
+    height: 40rem;
   }
 }

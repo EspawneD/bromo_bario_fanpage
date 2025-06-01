@@ -68,8 +68,6 @@ footer {
   background-color: #104712;
   padding: 2rem;
   text-align: center;
-  z-index: 1000;
-  bottom: 0;
 }
 form {
   display: flex;
@@ -171,5 +169,19 @@ header img {
   .videogaleria{
     width: 60rem;
     height: 40rem;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .contacto-container {
+    display: flex;
+    gap: 2rem;
+  }
+  .cartacontacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

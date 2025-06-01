@@ -27,6 +27,7 @@
 <main>
   <section>
     <h2 class="bebas-neue-regular">Contacto</h2>
+    <img src="img/saulcard.jpg" alt="Carta Saul Goodman" class="imgindex">
     <p>¿Tenés dudas, ideas o simplemente querés saludarnos? Completá el siguiente formulario y nos pondremos en contacto con vos.</p>
 
     <form action="#" method="post">
@@ -39,8 +40,22 @@
       <label for="asunto">Asunto:</label>
       <input type="text" id="asunto" name="asunto" required>
 
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      <label for="motivo">Motivo del mensaje:</label>
+        <select id="motivo" name="motivo" required>
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="fan_art">Enviar fan art</option>
+            <option value="otro">Otro</option>
+        </select>
+        
+
+       <label for="mensaje">Mensaje:</label>
+       <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+       <label>
+       <input type="checkbox" name="terminos" required>
+        Acepto los términos y condiciones
+       </label> 
 
       <button type="submit">Enviar</button>
     </form>

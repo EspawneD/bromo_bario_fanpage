@@ -98,6 +98,9 @@ header img {
   h3 {
     font-size: 3rem;
   }
+  .container_main{
+    max-width: 2400px;
+  }
   .img-container {
     width: 640px;
     height: 480px;
@@ -116,6 +119,7 @@ header img {
     justify-content: center;
     text-align: center;
     flex-flow: column wrap;
+    overflow: hidden;
   }
   .article1index, .article2index{
     display: flex;
@@ -125,5 +129,6 @@ header img {
   .containerindex {
     display: flex;
     justify-content: space-around;
+    flex-flow: wrap ;
   }
 }

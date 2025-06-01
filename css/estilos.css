@@ -121,7 +121,7 @@ header img {
     flex-flow: column wrap;
     overflow: hidden;
   }
-  .article1index, .article2index{
+  .articleindex{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -130,5 +130,15 @@ header img {
     display: flex;
     justify-content: space-around;
     flex-flow: wrap ;
+  }
+  .container-personajes {
+    display: flex;
+    flex-flow: wrap;
+  }
+  .articlepj {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
   }
 }

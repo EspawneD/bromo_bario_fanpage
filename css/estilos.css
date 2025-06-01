@@ -141,4 +141,10 @@ header img {
     flex-flow: column wrap;
     align-items: center;
   }
+  article {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
 }
